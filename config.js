@@ -34,8 +34,8 @@ module.exports = {
 
     USER_LID: process.env.YOUR_LID || null,
 
-    PRESENCE_DM: mapPresence(process.env.PRESENCE_DM || 'typing'),
-    PRESENCE_GROUP: mapPresence(process.env.PRESENCE_GROUP || 'recording'),
+    PRESENCE_DM: mapPresence(process.env.PRESENCE_DM || 'paused'),
+    PRESENCE_GROUP: mapPresence(process.env.PRESENCE_GROUP || 'paused'),
 
     mapPresence
 };
